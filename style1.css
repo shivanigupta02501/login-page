@@ -1,0 +1,107 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(image/background2.jpg);
+    background-size:cover;
+     /* background: linear-gradient(135deg, #ad88e9, #81a5db,#99eeb7);
+     background: linear-gradient(180deg, #f2fdec, #fffcfc); */
+}
+.container{
+    height:auto;
+    width:60%;
+    display: flex;
+    margin-top:8%;
+    margin-left:20%;
+    border:1px solid black;
+}
+.contentbox{
+    width:40%;
+    padding:2em;
+    color:white;
+    text-align:center;
+    background-color:#3bc29c;
+}
+.contentbox .welcome{
+    margin-top: 4em;
+    margin-bottom: 0.5em;
+}
+.contentbox p{
+    margin: 0.5em;
+    font-size: 85%;
+    
+}
+.contentbox .signinbtn{
+    border-radius: 2em;
+    border:2px solid white;
+    padding: 0.5em;
+    margin-top: 2.5em;
+    width: 11em;
+    background-color:#3bc29c;
+    color:white;
+    font-weight:550;
+}
+.createAct{
+    width:60%;
+    height:auto;
+    padding:2em;
+    text-align:center;
+    background-color:white;
+}
+.createAct .create{
+    margin-top:1.5em;
+    margin-bottom: 0.5em;
+    color:#33a892;
+}
+.createAct .icons{
+    margin-bottom:0.7em;
+}
+.createAct .icons a .icon{
+    color: black;
+    width: 2em;
+    border: 1px solid black;
+    padding: 0.5em;
+    margin: 0.2em;
+    margin-bottom:0.6em;
+    border-radius: 50%;
+}
+.createAct span{
+    padding:0.7em;
+    font-size:0.9em;
+    margin:2em;
+}
+.createAct form .inputbox input{
+    width: 28em;
+    height:0.1em;
+    padding: 1.7em;
+    font-weight: 550;
+    margin-top: 1em;
+    border: none;
+    outline: none;
+    background-color: rgb(223, 238, 243);
+    border-radius:2px;
+}
+.createAct form .button button{
+    margin: 2em;
+    margin-bottom: 5em;
+    width: 15em;
+    padding: 0.7em;
+    border-radius: 2em;
+    border: none;
+    background-color: #3bc29c;
+    color: white;
+    font-weight: 550;
+}
+.inputbox .icon{
+    
+    position: absolute;
+    margin-top:1.6em;
+    margin-left:0.2em;
+    
+}
+
+
+
